@@ -1,0 +1,19 @@
+.sectionsContainer {
+  display: grid;
+  gap: 3rem;
+  margin: 2rem 0;
+  color: var(--colors-text-gray);
+
+  & h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  & section {
+    background-color: white;
+    padding: 2rem 1.5rem;
+    border-radius: 1rem;
+    color: var(--colors-text-gray);
+  }
+}

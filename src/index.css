@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Montserrat", sans-serif;
+
+  color: rgba(255, 255, 255, 0.87);
+  scroll-behavior: smooth;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --colors-aqua: hsl(170, 73%, 51%);
+  --colors-light-gray: hsl(0, 0%, 95%);
+  --colors-text-gray: hsl(198, 18%, 33%);
+  --transition-1: 150ms;
+  --transition-2: 200ms;
+  --transition-3: 300ms;
+}
+
+#root {
+  background-color: var(--colors-light-gray);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+img,
+svg {
+  max-width: 100%;
+}

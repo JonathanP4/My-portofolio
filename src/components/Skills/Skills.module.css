@@ -1,0 +1,12 @@
+.skills {
+  position: relative;
+
+  & i {
+    font-size: 6rem;
+    transition: text-shadow 0.3s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      text-shadow: 0px 0px 4px;
+    }
+  }
+}
