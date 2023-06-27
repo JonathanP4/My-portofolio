@@ -1,0 +1,18 @@
+.project {
+  box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.3);
+  border-radius: 0.6rem;
+  padding: 1.5rem;
+  display: grid;
+
+  & figure {
+    max-height: 260px;
+    overflow-y: hidden;
+    position: relative;
+    border-radius: 0.6rem 0.6rem 0 0;
+  }
+  & .projectText {
+    border-top: 1px solid hsla(198, 18%, 33%, 0.5);
+    padding: 1rem 0;
+    align-self: flex-end;
+  }
+}

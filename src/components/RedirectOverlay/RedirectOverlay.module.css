@@ -1,0 +1,24 @@
+.overlay {
+  background-color: hsla(170, 73%, 51%, 0.7);
+  display: grid;
+  place-content: center;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 0.6rem 0.6rem 0 0;
+  transition: opacity 0.3s ease-in;
+  top: 0;
+  bottom: 0;
+
+  & svg {
+    width: 30px;
+    height: 30px;
+    color: var(--colors-text-gray);
+    /* fill: var(--colors-text-gray); */
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}

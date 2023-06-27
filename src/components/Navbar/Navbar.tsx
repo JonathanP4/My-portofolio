@@ -4,11 +4,12 @@ import Logo from "../Logo/Logo";
 import styles from "./Navbar.module.css";
 
 function Navbar() {
-  function scrollToElement(e: BaseSyntheticEvent, offset = -20) {
+  function scrollToElement(e: BaseSyntheticEvent, offset = -30) {
     e.preventDefault();
     const elId = e.target.dataset.scroll;
     const el = document.getElementById(elId) as HTMLElement;
 
+    // for reference about this lib https://www.npmjs.com/package/scroll-into-view
     scrollIntoView(el, {
       time: 100,
       align: {
@@ -43,7 +44,7 @@ function Navbar() {
           </li>
           <li>
             <a
-              onClick={(e) => scrollToElement(e, 150)}
+              onClick={(e) => scrollToElement(e, 220)}
               href="#projects"
               data-scroll="projects"
             >
