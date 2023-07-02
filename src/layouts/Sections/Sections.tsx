@@ -2,6 +2,7 @@ import About from "../../components/About/About";
 import MyProjects from "../Projects/MyProjects";
 import Skills from "../../components/Skills/Skills";
 import styles from "./Sections.module.css";
+import Socials from "../../components/Socials/Socials";
 
 function Sections() {
   return (
@@ -9,6 +10,7 @@ function Sections() {
       <About />
       <Skills />
       <MyProjects />
+      <Socials />
     </div>
   );
 }

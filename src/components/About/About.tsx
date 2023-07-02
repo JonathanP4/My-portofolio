@@ -5,6 +5,7 @@ function About() {
   return (
     <motion.section
       id="about"
+      viewport={{ once: true }}
       initial={{ transform: "translateX(-100%)", opacity: 0 }}
       transition={{ duration: 0.6, ease: "easeInOut" }}
       whileInView={{ opacity: 1, transform: "translateX(0)" }}

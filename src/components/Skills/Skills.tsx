@@ -5,14 +5,16 @@ function Skills() {
   return (
     <motion.section
       id="skills"
-      className={styles.skills}
+      viewport={{ once: true }}
+      className="relative"
       initial={{ transform: "translateX(100%)", opacity: 0 }}
       transition={{ duration: 0.6, ease: "easeInOut" }}
       whileInView={{ transform: "translateX(0)", opacity: 1 }}
     >
       <h2>Skills</h2>
       <motion.div
-        className="w-full flex justify-between"
+        viewport={{ once: true }}
+        className={`${styles.iconsContainer} w-full flex justify-between`}
         initial={{ transform: "scaleX(0%) ", opacity: 0 }}
         transition={{ duration: 0.6, ease: "easeInOut" }}
         whileInView={{ transform: "scaleX(1)", opacity: 1 }}
