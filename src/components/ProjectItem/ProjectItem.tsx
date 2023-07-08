@@ -17,7 +17,7 @@ function ProjectItem({ title, image, link, delay }: Props) {
       initial={{ transform: "translateX(-50%", opacity: 0 }}
       transition={{ duration: 0.6, ease: "easeIn", delay }}
       whileInView={{ transform: "translateX(0)", opacity: 1 }}
-      className="rounded-2xl p-5 grid shadow-slate-500/40 shadow-lg"
+      className="rounded-2xl p-5 grid shadow-lg shadow-slate-500/40 dark:shadow-[#27ddbf42] dark:bg-slate-800"
     >
       <figure className={styles.figure}>
         <RedirectOverlay link={link} />

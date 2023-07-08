@@ -21,7 +21,7 @@ function Navbar() {
   }
 
   return (
-    <nav className="bg-white/60 flex justify-between backdrop-blur sticky top-0 py-4 px-8 items-center z-50">
+    <nav className="bg-white/60 dark:bg-slate-900/80 dark:shadow-lg dark:shadow-[#27ddbf4f] flex justify-between backdrop-blur sticky top-0 py-4 px-8 items-center z-50">
       <div
         className={`${styles.logoArea} flex items-center gap-2 text-teal-400 `}
       >
@@ -32,7 +32,7 @@ function Navbar() {
       </div>
       <div>
         <ul
-          className={`${styles.navigationList} flex items-center gap-8 text-slate-600 font-medium `}
+          className={`${styles.navigationList} flex items-center gap-8 text-slate-600 dark:text-white font-medium `}
         >
           <li>
             <a onClick={scrollToElement} href="#about" data-scroll="about">

@@ -15,5 +15,9 @@
     padding: 2rem 1.5rem;
     border-radius: 1rem;
     color: var(--colors-text-gray);
+    @media (prefers-color-scheme: dark) {
+      background-color: hsl(217, 33%, 17%);
+      color: hsl(170, 73%, 51%);
+    }
   }
 }

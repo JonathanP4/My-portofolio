@@ -21,7 +21,10 @@ export default function Socials() {
           whileInView={{ transform: "translate(0) rotate(0)", opacity: 1 }}
           href="https://github.com/JonathanP4"
         >
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+          <img
+            className=" dark:invert"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+          />
         </motion.a>
 
         <motion.a

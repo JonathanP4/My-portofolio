@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main>
+      <main className="dark:bg-slate-900">
         <Hero />
         <Sections />
       </main>
